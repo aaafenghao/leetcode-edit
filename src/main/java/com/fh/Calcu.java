@@ -1,5 +1,7 @@
 package com.fh;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Stack;
 
 /**
@@ -10,9 +12,16 @@ import java.util.Stack;
 public class Calcu {
 
     public static void main(String[] args) {
-        Calcu calcu = new Calcu();
+        /*Calcu calcu = new Calcu();
         int covert = calcu.covert("384");
-        System.out.println(covert);
+        System.out.println(covert);*/
+        String[] a = new String[2];
+        List<String> list =new ArrayList<String>();
+        list.add("aa");
+        list.add("bb");
+        list.toArray(a);
+        System.out.println(a[0]);
+
     }
 
     public int covert(String nums){
@@ -68,5 +77,12 @@ public class Calcu {
         }
         return true;
     }
+
+
+
+
+
+
+
 
 }

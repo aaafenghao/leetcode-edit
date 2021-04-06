@@ -1,5 +1,9 @@
 package com.fh.twoSplit;
 
+/**
+ * 二分查找算法
+ *
+ */
 public class FindNum {
 
     public Integer find(int[] nums,int target){
@@ -55,7 +59,7 @@ public class FindNum {
                 left = mid + 1;
             }
             if(nums[mid] == target){
-                left = mid +1;
+                left = mid + 1;
             }
         }
         if(right < 0 || nums[right] != target){
